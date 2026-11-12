@@ -107,7 +107,7 @@ while True:
         print("What Record?")
         print("1. Most Wickets Taken")
         print("2. Most Maidens Bowled")
-        print("3. Least Runs Conceded")
+        print("3. Most Runs Conceded")
         print("4. Most Boundaries Conceded")
         print("5. Best Economy (min. 4 overs bowled)")
         print("6. Most Balls Bowled")
@@ -120,7 +120,7 @@ while True:
             FilterAndPlot('Maiden')
 
         if choice2 == 3:
-            FilterAndPlot('Runs',True)
+            FilterAndPlot('Runs')
             
         if choice2 == 4:
             bowling['BOUNDARIES'] = bowling['FOURS'] + bowling['SIXES']
